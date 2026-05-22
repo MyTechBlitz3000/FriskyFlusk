@@ -7,10 +7,11 @@ let package = Package(
         .iOS(.v17)
     ],
     products: [
-        .executable(
-            name: "FriskyFluskApp",
-            targets: ["FriskyFluskApp"]
-        )
+    .executable(
+        name: "FriskyFluskApp",
+        targets: ["FriskyFluskApp"]
+    )
+]
     ],
     dependencies: [],
     targets: [
