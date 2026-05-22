@@ -1,0 +1,21 @@
+{
+  "name": "friskyflusk-dashboard",
+  "version": "1.0.0",
+  "description": "Web dashboard for FriskyFlusk OAuth API generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "live-server ./web_dashboard",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "OAuth",
+    "API",
+    "dashboard"
+  ],
+  "author": "Justin",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {}
+}
