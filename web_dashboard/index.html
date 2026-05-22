@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FriskyFlusk Dashboard</title>
+<style>
+body { font-family: sans-serif; padding: 2rem; }
+input { margin: 0.5rem 0; padding: 0.5rem; width: 300px; }
+button { padding: 0.5rem 1rem; }
+pre { background: #f0f0f0; padding: 1rem; }
+</style>
+</head>
+<body>
+<h1>FriskyFlusk OAuth Generator</h1>
+<input id="provider" placeholder="Provider" value="github"><br>
+<input id="redirect_uri" placeholder="Redirect URI" value="http://localhost/callback"><br>
+<input id="scopes" placeholder="Scopes (comma)" value="repo,user"><br>
+<button onclick="generateOAuth()">Generate OAuth</button>
+
+<pre id="result"></pre>
+
+<script src="main.js"></script>
+</body>
+</html>
