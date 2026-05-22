@@ -11,4 +11,7 @@ async function generateOAuth() {
 
     const data = await response.json();
     document.getElementById("result").innerText = JSON.stringify(data, null, 2);
+
+    // Open GitHub authorization page
+    window.open(data.auth_url, "_blank");
 }
