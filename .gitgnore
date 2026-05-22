@@ -1,0 +1,26 @@
+# Swift / Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+build/
+*.playground/
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+*.sqlite3
+*.db
+
+# Node / JS
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# General
+.DS_Store
+*.log
+.idea/
+.vscode/
